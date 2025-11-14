@@ -5,15 +5,15 @@ public class TriggerTimeline : MonoBehaviour
 {
     public PlayableDirector timeline;
     public GameObject Trigger;
-    void OnTriggerEnter(Collider other)
-    {
-        timeline.Play();
-    }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    timeline.Play();
+    //}
 
-    // Alternate one time trigger implementation 
-    // (trigger will self-destruct after initating timeline)
+    //// Alternate one time trigger implementation 
+    //// (trigger will self-destruct after initating timeline)
 
-    /*
+    ///*
      
     void OnTriggerEnter(Collider other)
     {
@@ -21,7 +21,7 @@ public class TriggerTimeline : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    */
+    //*/
 
 
 
